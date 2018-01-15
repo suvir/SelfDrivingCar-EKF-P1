@@ -34,6 +34,7 @@ public:
 private:
   // check whether the tracking toolbox was initialized or not (first measurement)
   bool is_initialized_;
+  int step;
 
   // previous timestamp
   long long previous_timestamp_;
